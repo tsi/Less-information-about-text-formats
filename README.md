@@ -1,4 +1,3 @@
-## Description
 This is a small script that will hide the (way too big) text format information area 
 from under your text input boxes in Drupal 7.
 
@@ -12,6 +11,7 @@ from under your text input boxes in Drupal 7.
 
 ## Modifications
 With small modifications to line 14 of the script you can animate the way the tips apear :
+
 * For a fade-in effect -
 
     $(this).parents(".filter-help").siblings().fadeIn("slow");
