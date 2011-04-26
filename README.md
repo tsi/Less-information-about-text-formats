@@ -1,5 +1,6 @@
 This is a small script that will hide the (way too big) text format information area 
 from under your text input boxes in Drupal 7.
+
 When a form with a text area is loaded the tips are hidden and only a link to show 
 more tips is visible, the first click will reveal the text format tips, while another
 click will take the user to the tips full page. 
