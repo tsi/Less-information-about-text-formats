@@ -16,7 +16,7 @@ click will take the user to the tips full page.
 ### From your module, for admin theme only :
 * Put the script under the root of your module directory in a directory called scripts.
 * Add this to your module :
-```php
+```
 /**
  * Implementation of hook_init()
  */
