@@ -6,28 +6,13 @@ more tips is visible, the first click will reveal the text format tips, while an
 click will take the user to the tips full page. 
 
 ## How to use
-### Simple use from your theme :
-* Put the script under the root of your theme directory in a directory called scripts.
-* Call the script fron your theme's .info file by adding this line :
+### Simple use from your theme or module:
+* Put the script under the root of your theme/module directory in a directory called scripts.
+* Call the script from your .info file by adding this line :
       
       scripts[] = scripts/script.js
       
 * Refresh your caches and watch amazed as your forms become beautiful again.
-### From your module, for admin theme only :
-* Put the script under the root of your module directory in a directory called scripts.
-* Add this to your module :
-
-```
-/**
- * Implementation of hook_init()
- */
-function MODULENAME_init() {
-  global $theme;
-  if ($theme == variable_get('admin_theme')) {
-    drupal_add_js(drupal_get_path('module', 'MODULENAME') . '/script.js');
-  }
-}
-```
 
 ## Modifications
 With small modifications to line 14 of the script you can animate the way the tips apear :
